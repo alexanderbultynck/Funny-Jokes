@@ -11,3 +11,6 @@ async function showJoke() {
     const joke = await fetchJoke();
     jokeElement.innerText = `${joke.setup} - ${joke.punchline}`;
 }
+
+// Add event listener to the button
+document.getElementById('jokeButton').addEventListener('click', showJoke);
