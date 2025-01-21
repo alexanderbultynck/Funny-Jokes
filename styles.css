@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 50vh;
+    height: auto;
 }
 
 h1 {
